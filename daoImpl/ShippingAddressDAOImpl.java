@@ -10,6 +10,7 @@ import com.niit.dao.ShippingAddressDAO;
 import com.niit.model.ShippingAddress;
 
 @Repository
+@Transactional
 public class ShippingAddressDAOImpl implements ShippingAddressDAO {
 @Autowired
 private SessionFactory sessionFactory;
