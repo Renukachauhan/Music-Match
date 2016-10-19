@@ -10,6 +10,7 @@ import com.niit.dao.ProductDAO;
 import com.niit.model.Product;
 
 @Repository
+@Transactional
 public class ProductDAOImpl implements ProductDAO {
 @Autowired
 private SessionFactory sessionFactory;
