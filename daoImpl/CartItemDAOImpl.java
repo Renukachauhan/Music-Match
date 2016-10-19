@@ -10,6 +10,7 @@ import com.niit.dao.CartItemDAO;
 import com.niit.model.CartItem;
 
 @Repository
+@Transactional
 public class CartItemDAOImpl implements CartItemDAO{
 @Autowired
 private SessionFactory sessionFactory;
