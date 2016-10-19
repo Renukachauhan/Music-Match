@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.niit.dao.UserDAO;
 import com.niit.model.Users;
 @Repository
+@Transactional
 public class UserDAOImpl implements UserDAO {
 
 	@Autowired
