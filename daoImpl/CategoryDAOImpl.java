@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.niit.dao.CategoryDAO;
 import com.niit.model.Category;
 @Repository
+@Transactional
 public class CategoryDAOImpl implements CategoryDAO{
 @Autowired
 private SessionFactory sessionFactory;
