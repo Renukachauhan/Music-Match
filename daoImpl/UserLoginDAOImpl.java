@@ -10,6 +10,7 @@ import com.niit.dao.UserLoginDAO;
 import com.niit.model.UserLogin;
 
 @Repository
+@Transactional
 public class UserLoginDAOImpl implements UserLoginDAO{
 @Autowired
 private SessionFactory sessionFactory;
