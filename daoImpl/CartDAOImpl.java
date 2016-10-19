@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.niit.dao.CartDAO;
 import com.niit.model.Cart;
 @Repository
+@Transactional
 public class CartDAOImpl implements CartDAO {
 @Autowired
 private SessionFactory sessionFactory;
