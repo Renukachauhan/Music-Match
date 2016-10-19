@@ -10,6 +10,7 @@ import com.niit.dao.SupplierDAO;
 
 import com.niit.model.Suppliers;
 @Repository
+@Transactional
 public class SupplierDAOImpl implements SupplierDAO{
 @Autowired
 private SessionFactory sessionFactory;
