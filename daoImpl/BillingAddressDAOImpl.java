@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.niit.dao.BillingAddressDAO;
 import com.niit.model.BillingAddress;
 @Repository
+@Transactional
 public class BillingAddressDAOImpl implements BillingAddressDAO{
 @Autowired
 private SessionFactory sessionFactory;
