@@ -10,6 +10,7 @@ import com.niit.dao.AuthorityDAO;
 import com.niit.model.Authority;
 import com.niit.model.Users;
 @Repository
+@Transactional
 public class AuthorityDAOImpl implements AuthorityDAO{
 @Autowired 
 private SessionFactory sessionFactory;
